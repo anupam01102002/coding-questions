@@ -1,13 +1,16 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
     int X, Y, T;
+    string S;
     cin >> T;
     for (int i = 0; i < T; i++)
     {
-        cin >> X>> Y;
+        cin >> S;
+        int num = stoi(S);
         if (Y < X)
         {
             cout << "0" << endl;
