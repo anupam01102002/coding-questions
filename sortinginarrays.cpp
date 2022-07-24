@@ -11,7 +11,7 @@ void swap(int *x, int *y)
 
 int main()
 {
-    int arr[] = {0,1,0,1,0,1};
+    int arr[] = {12,432,23,342,9,234,34};
     for (int i = 0; i < 6; i++)
     {
         for (int j = i+1; j < 6; j++)
